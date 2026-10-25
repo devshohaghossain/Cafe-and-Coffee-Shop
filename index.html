@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Caffino — Cafe and Coffee Shop </title>
+    <link rel="icon" href="images/icon.webp" type="image/gif" sizes="16x16">
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" >
+    <meta content="Caffino — Cafe and Coffee Shop Website Template" name="description" >
+    <meta content="" name="keywords" >
+    <meta content="" name="author" >
+    <!-- CSS Files
+    ================================================== -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap">
+    <link href="css/plugins.css" rel="stylesheet" type="text/css" >
+    <link href="css/swiper.css" rel="stylesheet" type="text/css" >
+    <link href="css/swiper-custom-1.css" rel="stylesheet" type="text/css" >
+    <link href="css/style.css" rel="stylesheet" type="text/css" >
+    <link href="css/coloring.css" rel="stylesheet" type="text/css" >
+    <link href="css/custom-gsap.css" rel="stylesheet" type="text/css" >
+    <!-- color scheme -->
+    <link id="colors" href="css/colors/scheme-01.css" rel="stylesheet" type="text/css" >
+</head>
+<body>
+    <header class="transparent">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="de-flex sm-pt10">
+                        <div class="de-flex-col">
+                            <!-- logo begin -->
+                            <div id="logo">
+                                <a href="index.html">
+                                    <img class="logo-main" src="images/logo-white.webp" alt="" >
+                                    <img class="logo-scroll" src="images/logo-white.webp" alt="" >
+                                    <img class="logo-mobile" src="images/logo-white.webp" alt="" >
+                                </a>
+                            </div>
+                            <!-- logo end -->
+                        </div>
+                        <div class="de-flex-col header-col-mid">
+                            <!-- mainemenu begin -->
+                            <ul id="mainmenu">
+                                <li><a class="menu-item" href="index.html">Home</a>
+                                  
+                                </li>
+                                <li><a class="menu-item" href="menu.html">Menu</a>
+                                   
+                                </li>
+                                <li><a class="menu-item" href="about.html">About</a></li>
+                                <li><a class="menu-item" href="gallery.html">Gallery</a></li>
+                                <li><a class="menu-item" href="blog.html">Blog</a></li>
+                                <li><a class="menu-item" href="contact.html">Contact</a></li>
+                            </ul>
+                            <!-- mainmenu end -->
+                        </div>
+                        <div class="de-flex-col">
+                            <div class="menu_side_area">
+                                <a href="reservation.html" class="btn-main fx-slide hover-white"><span>Reservation</span></a>
+                                <span id="menu-btn"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="top"></div>
+        <div class="float-text show-on-scroll">
+        <span><a href="#">Scroll to top</a></span>
+        </div>
+        <div class="scrollbar-v show-on-scroll"></div>
+        <!-- page preloader begin -->
+        <div id="de-loader"></div>
+        <!-- page preloader close -->
+        <section id="section-hero" class="text-light section-dark no-top no-bottom relative overflow-hidden sm-mt-90 parallax-back">
+            <div class="v-center">
+                <div class="swiper">
+                  <!-- Additional required wrapper -->
+                  <div class="swiper-wrapper">
+                      <!-- Slide 1 -->
+                      <div class="swiper-slide">
+                          <div class="swiper-inner" data-bgimage="url(images/slider/1.webp) center">
+                              <div class="sw-caption">
+                                  <div class="container">
+                                      <div class="row gx-5 align-items-center justify-content-center">
+                                          <div class="col-lg-7 text-center">
+                                              <div class="sw-text-wrapper">
+                                                  <div class="subtitle animated anim-order-1">Welcome to Caffino</div>
+                                                  <h1 class="mb-4 animated anim-order-2">Crafted Coffee, Served with Passion</h1>
+                                                  <div class="divider-s1 animated anim-order-3"></div>
+                                                  <div class="animated anim-order-4">
+                                                      <p class="col-lg-10 offset-lg-1">
+                                                          Savor expertly brewed coffee, handcrafted beverages, and fresh pastries in a warm, inviting space made for every moment.
+                                                      </p>
+                                                      <div class="spacer-half"></div>
+                                                      <a class="btn-main fx-slide animated fadeInUp anim-order-5" href="menu.html">
+                                                          <span>Explore Our Menu</span>
+                                                      </a>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="sw-overlay op-4"></div>
+                              <div class="gradient-edge-bottom op-5"></div>
+                          </div>
+                      </div>
+                      <!-- Slide 2 -->
+                      <div class="swiper-slide">
+                          <div class="swiper-inner" data-bgimage="url(images/slider/2.webp) center">
+                              <div class="sw-caption">
+                                  <div class="container">
+                                      <div class="row gx-5 align-items-center justify-content-center">
+                                          <div class="col-lg-7 text-center">
+                                              <div class="sw-text-wrapper">
+                                                  <div class="subtitle animated anim-order-1">Freshly Roasted Daily</div>
+                                                  <h1 class="mb-4 animated anim-order-2">Freshly Roasted Beans, Richer Every Cup</h1>
+                                                  <div class="divider-s1 animated anim-order-3"></div>
+                                                  <div class="animated anim-order-4">
+                                                      <p>
+                                                          We carefully source premium coffee beans and roast them in small batches to bring out bold aromas, smooth flavors, and exceptional freshness in every cup.
+                                                      </p>
+                                                      <div class="spacer-half"></div>
+                                                      <a class="btn-main fx-slide animated fadeInUp anim-order-5" href="menu.html">
+                                                          <span>Explore Our Coffee</span>
+                                                      </a>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="sw-overlay op-4"></div>
+                              <div class="gradient-edge-bottom op-5"></div>
+                          </div>
+                      </div>
+                  </div>
+                  <!-- If we need pagination -->
+                  <div class="swiper-pagination"></div>
+                  <!-- If we need navigation buttons -->
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+                </div>
+            </div>
+            <div class="abs w-100 z-2 bottom-0 mb-5">
+                <div class="container relative">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row g-4 grid-divider slider-extra sm-hide">
+                        <div class="col-lg-4 col-md-6 mb-sm-30 wow fadeInUp" data-wow-delay="0s">
+                            <div class="d-flex justify-content-center">
+                                <img src="images/icons-color/4.png" class="w-60px mb-4" alt="">
+                                <div class="ms-3">
+                                    <p class="mb-0">Mon – Fri: 8:00 AM – 8:00 PM</p>
+                                    <p>Sat – Sun: 9:00 AM – 10:00 PM</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb-sm-30 wow fadeInUp" data-wow-delay=".2s">
+                            <div class="d-flex justify-content-center">
+                                <img src="images/icons-color/5.png" class="w-60px mb-4" alt="">
+                                <div class="ms-3">
+                                    <p class="mb-0">456 Maple Avenue</p>
+                                    <p>Seattle, WA 98101, USA</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb-sm-30 wow fadeInUp" data-wow-delay=".4s">
+                            <div class="d-flex justify-content-center">
+                                <img src="images/icons-color/6.png" class="w-60px mb-4" alt="">
+                                <div class="ms-3">
+                                    <p class="mb-0">(880) 01622011903</p>
+                                    <p><a href="mailto:hello@caffino.com">hello@caffino.com</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-light relative overflow-hidden parallax-front">
+            <img src="images/misc/d1.webp" class="abs w-20 right-0 top-0" alt="" data-bottom-top="transform: translateY(150px);" data-top-bottom="transform: translateY(-150px);">
+            <div class="container relative z-2">
+                <div class="row g-4 justify-content-center">
+                    <div class="col-lg-7">
+                        <div class="text-center">
+                            <div class="subtitle wow scaleIn">Discover</div>
+                            <h2 class="hero-title">New Flavors</h2>
+                            <div class="divider-s1 mb-5 wow fadeIn" data-wow-delay=".4s"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-lg-4 g-2 justify-content-center wow fadeIn" data-wow-delay=".6s">
+                    <div class="col-md-5">
+                        <p>
+                            Explore a selection of freshly prepared dishes crafted with premium ingredients and inspired by flavors from around the world. Every recipe is carefully created to deliver exceptional taste, outstanding quality, and a memorable dining experience for every guest.
+                        </p>
+                    </div>
+                    <div class="col-md-5">
+                        <p>
+                            From signature coffee to handcrafted desserts, every menu item is thoughtfully prepared using fresh ingredients and expert techniques. Enjoy rich flavors, inviting aromas, and warm hospitality that make every visit truly memorable.
+                        </p>
+                    </div>
+                    <div class="text-center">
+                        <a href="about.html" class="btn-main fx-slide"><span>More About Us</span></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="relative">
+            <div class="container relative z-2">
+                <div class="row g-lg-4 g-2 align-items-end justify-content-between">
+                    <div class="col-lg-6">
+                        <div class="subtitle wow scaleIn">Welcome to Our Cafe</div>
+                        <h2 class="hero-title">Experience A New Way<br>To Enjoy Coffee</h2>
+                    </div>
+                    <div class="col-lg-4">
+                        <p>Freshly roasted beans, handcrafted beverages, and a warm atmosphere come together to create memorable coffee moments.</p>
+                    </div>
+                </div>
+                <div class="mb-3"></div>
+                <div class="row g-4">
+                    <div class="col-lg-12">
+                        <div id="masonry">
+                            <div class="grid-sizer"></div>
+                            <div class="item s-50 interior">
+                                <a href="images/gallery/1.webp" class="image-popup d-block hover">
+                                    <div class="relative overflow-hidden">
+                                        <div class="absolute start-0 w-100 hover-op-1 p-5 abs-middle z-2 text-center text-white">
+                                            View
+                                        </div>
+                                        <div class="absolute start-0 w-100 h-100 overlay-black-5 hover-op-1"></div>
+                                        <img src="images/gallery/1.webp" class="w-100 hover-scale-1-2" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="item s-25 interior">
+                                <a href="images/gallery/2.webp" class="image-popup d-block hover">
+                                    <div class="relative overflow-hidden">
+                                        <div class="absolute start-0 w-100 hover-op-1 p-5 abs-middle z-2 text-center text-white">
+                                            View
+                                        </div>
+                                        <div class="absolute start-0 w-100 h-100 overlay-black-5 hover-op-1"></div>
+                                        <img src="images/gallery/2.webp" class="w-100 hover-scale-1-2" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="item s-25 interior">
+                                <a href="images/gallery/3.webp" class="image-popup d-block hover">
+                                    <div class="relative overflow-hidden">
+                                        <div class="absolute start-0 w-100 hover-op-1 p-5 abs-middle z-2 text-center text-white">
+                                            View
+                                        </div>
+                                        <div class="absolute start-0 w-100 h-100 overlay-black-5 hover-op-1"></div>
+                                        <img src="images/gallery/3.webp" class="w-100 hover-scale-1-2" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="item s-25 interior">
+                                <a href="images/gallery/4.webp" class="image-popup d-block hover">
+                                    <div class="relative overflow-hidden">
+                                        <div class="absolute start-0 w-100 hover-op-1 p-5 abs-middle z-2 text-center text-white">
+                                            View
+                                        </div>
+                                        <div class="absolute start-0 w-100 h-100 overlay-black-5 hover-op-1"></div>
+                                        <img src="images/gallery/4.webp" class="w-100 hover-scale-1-2" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="item s-25 interior">
+                                <a href="images/gallery/5.webp" class="image-popup d-block hover">
+                                    <div class="relative overflow-hidden">
+                                        <div class="absolute start-0 w-100 hover-op-1 p-5 abs-middle z-2 text-center text-white">
+                                            View
+                                        </div>
+                                        <div class="absolute start-0 w-100 h-100 overlay-black-5 hover-op-1"></div>
+                                        <img src="images/gallery/5.webp" class="w-100 hover-scale-1-2" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-dark-1 section-dark text-light">
+            <div class="container">
+                <div class="row g-4 justify-content-center">
+                    <div class="col-lg-7">
+                        <div class="text-center">
+                            <div class="subtitle wow scaleIn">Our Menu</div>
+                            <h2 class="hero-title">Our Signature<br>Beverages</h2>
+                            <div class="divider-s1 mb-5 wow fadeIn fadeIn" data-wow-delay=".4s"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-4 wow fadeIn" data-wow-delay=".6s">
+                    <div class="col-md-4">
+                        <img src="images/menu/1.webp" class="w-100" alt="">
+                        <div class="mt-4">
+                            <div class="dotted-item fw-600">
+                                <h3 class="hs-5">Signature Latte</h3>
+                                <div class="line"></div>
+                                <div class="id-color-2">$5.90</div>
+                            </div>
+                            <p class="mb-1">
+                                Smooth espresso blended with velvety steamed milk, finished with latte art for a balanced cup.
+                            </p>
+                            <div class="atr">
+                                <small>12oz / 355ml</small>
+                                <span class="ms-2 badge bg-color-2 text-dark">Best Seller</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/menu/2.webp" class="w-100" alt="">
+                        <div class="mt-4">
+                            <div class="dotted-item fw-600">
+                                <h3 class="hs-5">Caramel Cold Brew</h3>
+                                <div class="line"></div>
+                                <div class="id-color-2">$6.50</div>
+                            </div>
+                            <p class="mb-1">
+                                Slow-steeped cold brew topped with creamy caramel foam for a refreshing drink with rich flavor.
+                            </p>
+                            <div class="atr">
+                                <small>16oz / 475ml</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/menu/3.webp" class="w-100" alt="">
+                        <div class="mt-4">
+                            <div class="dotted-item fw-600">
+                                <h3 class="hs-5">Iced Matcha Latte</h3>
+                                <div class="line"></div>
+                                <div class="id-color-2">$5.50</div>
+                            </div>
+                            <p class="mb-1">
+                                Premium matcha whisked with creamy milk and served over ice for a smooth, refreshing taste.
+                            </p>
+                            <div class="atr">
+                                <small>16oz / 475ml</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <a href="menu.html" class="btn-main fx-slide">
+                            <span>View All Menu</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+         <section class="relative text-light section-dark v-center" data-bgimage="url(images/background/1.webp) center">
+            <div class="sw-overlay op-8"></div>
+            <div class="container relative z-2">
+                <div class="row g-4 justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="subtitle wow scaleIn">Why Choose Us</div>
+                        <h2 class="hero-title">It's More Than Coffee,<br>It's An Experience</h2>
+                        <div class="divider-s1 start" data-wow-delay=".4s"></div>
+                    </div>
+                    <div id="cafe-cards" class="col-lg-6" data-wow-delay=".6s">
+                        <div class="row g-4">
+                            <div class="col-lg-6 cafe-card">
+                                <div class="text-start">
+                                    <div class="relative z-2">
+                                        <img src="images/icons-color/1.png" class="w-80px mb-4" alt="">
+                                        <h3 class="hs-4">Freshly Roasted Beans</h3>
+                                        <p>We carefully select and roast premium beans to unlock their natural aroma, depth, and distinctive flavor.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 cafe-card">
+                                <div class="text-start">
+                                    <div class="relative z-2">
+                                        <img src="images/icons-color/2.png" class="w-80px mb-4" alt="">
+                                        <h3 class="hs-4">Signature Recipes</h3>
+                                        <p>Every drink is thoughtfully crafted using our unique recipes, delivering a consistently satisfying coffee experience.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 cafe-card">
+                                <div class="text-start">
+                                    <div class="relative z-2">
+                                        <img src="images/icons-color/3.png" class="w-80px mb-4" alt="">
+                                        <h3 class="hs-4">Cozy Atmosphere</h3>
+                                        <p>Relax, work, or catch up with friends in a welcoming space thoughtfully designed for comfort, connection, and unforgettable moments.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 cafe-card">
+                                <div class="text-start">
+                                    <div class="relative z-2">
+                                        <img src="images/icons-color/7.png" class="w-80px mb-4" alt="">
+                                        <h3 class="hs-4">Warm Hospitality</h3>
+                                        <p>From the first greeting to the final sip, our friendly team creates a welcoming experience that makes every visit feel special.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="row g-4 justify-content-center">
+                    <div class="col-lg-7">
+                        <div class="text-center">
+                            <div class="subtitle wow scaleIn">Discover</div>
+                            <h2 class="hero-title">Our Menu</h2>
+                            <div class="divider-s1 mb-5 wow fadeIn fadeIn" data-wow-delay=".4s"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-4 wow fadeIn" data-wow-delay=".6s">
+                    <div class="col-lg-6">
+                        <div class="relative">
+                            <img src="images/menu/1.webp" class="w-80px circle abs" alt="">
+                            <div class="ms-100px">
+                                <div class="dotted-item fw-600">
+                                    <h3 class="hs-5 mb-0">Signature Latte</h3>
+                                    <div class="line"></div>
+                                    <div class="text-dark">$5.90</div>
+                                </div>
+                                <p class="mb-1">
+                                    Smooth espresso with steamed milk and elegant latte art.
+                                </p>
+                                <div class="atr">
+                                    <small>12oz / 355ml</small>
+                                    <span class="ms-2 badge bg-color-2 text-dark">Best Seller</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="relative">
+                            <img src="images/menu/2.webp" class="w-80px circle abs" alt="">
+                            <div class="ms-100px">
+                                <div class="dotted-item fw-600">
+                                    <h3 class="hs-5 mb-0">Caramel Cold Brew</h3>
+                                    <div class="line"></div>
+                                    <div class="text-dark">$6.50</div>
+                                </div>
+                                <p class="mb-1">
+                                    Slow-steeped cold brew with creamy caramel foam.
+                                </p>
+                                <div class="atr">
+                                    <small>16oz / 475ml</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="relative">
+                            <img src="images/menu/3.webp" class="w-80px circle abs" alt="">
+                            <div class="ms-100px">
+                                <div class="dotted-item fw-600">
+                                    <h3 class="hs-5 mb-0">Iced Matcha Latte</h3>
+                                    <div class="line"></div>
+                                    <div class="text-dark">$5.50</div>
+                                </div>
+                                <p class="mb-1">
+                                    Premium matcha with creamy milk, served over ice.
+                                </p>
+                                <div class="atr">
+                                    <small>16oz / 475ml</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="relative">
+                            <img src="images/menu/4.webp" class="w-80px circle abs" alt="">
+                            <div class="ms-100px">
+                                <div class="dotted-item fw-600">
+                                    <h3 class="hs-5 mb-0">Cappuccino</h3>
+                                    <div class="line"></div>
+                                    <div class="text-dark">$5.40</div>
+                                </div>
+                                <p class="mb-1">
+                                    Rich espresso with steamed milk and silky foam.
+                                </p>
+                                <div class="atr">
+                                    <small>12oz / 355ml</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="relative">
+                            <img src="images/menu/5.webp" class="w-80px circle abs" alt="">
+                            <div class="ms-100px">
+                                <div class="dotted-item fw-600">
+                                    <h3 class="hs-5 mb-0">Vanilla Latte</h3>
+                                    <div class="line"></div>
+                                    <div class="text-dark">$5.80</div>
+                                </div>
+                                <p class="mb-1">
+                                    Espresso with vanilla syrup and creamy steamed milk.
+                                </p>
+                                <div class="atr">
+                                    <small>12oz / 355ml</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="relative">
+                            <img src="images/menu/6.webp" class="w-80px circle abs" alt="">
+                            <div class="ms-100px">
+                                <div class="dotted-item fw-600">
+                                    <h3 class="hs-5 mb-0">Mocha Delight</h3>
+                                    <div class="line"></div>
+                                    <div class="text-dark">$6.20</div>
+                                </div>
+                                <p class="mb-1">
+                                    Espresso with rich chocolate and steamed milk.
+                                </p>
+                                <div class="atr">
+                                    <small>12oz / 355ml</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="relative">
+                            <img src="images/menu/7.webp" class="w-80px circle abs" alt="">
+                            <div class="ms-100px">
+                                <div class="dotted-item fw-600">
+                                    <h3 class="hs-5 mb-0">Honey Oat Latte</h3>
+                                    <div class="line"></div>
+                                    <div class="text-dark">$6.10</div>
+                                </div>
+                                <p class="mb-1">
+                                    Oat milk, espresso, and natural honey in perfect harmony.
+                                </p>
+                                <div class="atr">
+                                    <small>16oz / 475ml</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="relative">
+                            <img src="images/menu/8.webp" class="w-80px circle abs" alt="">
+                            <div class="ms-100px">
+                                <div class="dotted-item fw-600">
+                                    <h3 class="hs-5 mb-0">Strawberry Refresher</h3>
+                                    <div class="line"></div>
+                                    <div class="text-dark">$5.70</div>
+                                </div>
+                                <p class="mb-1">
+                                    Chilled strawberry fruit drink with a refreshing finish.
+                                </p>
+                                <div class="atr">
+                                    <small>16oz / 475ml</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <a href="menu.html" class="btn-main fx-slide">
+                            <span>View All Menu</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-light">
+            <div class="container">
+                <div class="row g-4 justify-content-center">
+                    <div class="col-lg-7">
+                        <div class="text-center">
+                            <div class="subtitle wow scaleIn">Special Offers</div>
+                            <h2 class="hero-title">Enjoy More With<br>Every Visit</h2>
+                            <div class="divider-s1 mb-5 wow fadeIn fadeIn" data-wow-delay=".4s"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-4 wow fadeIn" data-wow-delay=".6s">
+                    <div class="col-md-4">
+                        <div class="text-center overflow-hidden relative text-light">
+                            <div class="sw-overlay z-2 op-8"></div>
+                            <img src="images/offers/1.webp" class="w-100" alt="">
+                            <div class="abs w-80 abs-centered z-2">
+                                <h3 class="text-white mb-4">Morning Coffee Deal</h3>
+                                <div class="divider-s1 w-50px my-3"></div>
+                                <p class="text-white mb-4">
+                                    Start your day with any handcrafted coffee and enjoy a freshly baked pastry at a special bundled price.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="text-center overflow-hidden relative text-light">
+                            <div class="sw-overlay color z-2 op-8"></div>
+                            <img src="images/offers/2.webp" class="w-100" alt="">
+                            <div class="abs w-80 abs-centered z-2">
+                                <h3 class="text-white mb-4">Buy 2, Get 1 Free</h3>
+                                <div class="divider-s1 w-50px my-2"></div>
+                                <p class="text-white mb-4">
+                                    Share your favorite drinks with friends and receive a complimentary beverage on selected menu items.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="text-center overflow-hidden relative text-light">
+                            <div class="sw-overlay z-2 op-8"></div>
+                            <img src="images/offers/3.webp" class="w-100" alt="">
+                            <div class="abs w-80 abs-centered z-2">
+                                <h3 class="text-white mb-4">Happy Hour Specials</h3>
+                                <div class="divider-s1 w-50px my-3"></div>
+                                <p class="text-white mb-4">
+                                    Enjoy exclusive discounts on selected hot and iced beverages every weekday afternoon.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-dark-1 text-light section-dark">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0s">
+                        <div class="text-center">
+                            <div class="relative z-2">
+                                <img src="images/icons-color/4.png" class="w-80px mb-4" alt="">
+                                <h4>Opening Hours</h4>
+                                <p class="mb-1">Monday – Friday: 8:00 AM – 8:00 PM</p>
+                                <p>Saturday – Sunday: 9:00 AM – 10:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeIn" data-wow-delay=".2s">
+                        <div class="text-center">
+                            <div class="relative z-2">
+                                <img src="images/icons-color/5.png" class="w-80px mb-4" alt="">
+                                <h4>Visit Our Café</h4>
+                                <p class="mb-1">456 Maple Avenue</p>
+                                <p>Seattle, WA 98101, USA</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeIn" data-wow-delay=".4s">
+                        <div class="text-center">
+                            <div class="relative z-2">
+                                <img src="images/icons-color/6.png" class="w-80px mb-4" alt="">
+                                <h4>Get In Touch</h4>
+                                <p class="mb-1">(206) 555-0188</p>
+                                <p><a href="mailto:hello@caffino.com">hello@caffino.com</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="relative text-light section-dark" data-bgimage="url(images/background/2.webp) center">
+            <div class="sw-overlay op-8"></div>
+            <div class="container relative z-2">
+                <div class="row g-4 justify-content-center">
+                    <div class="col-lg-6 text-center">
+                        <div class="subtitle wow fadeInUp mb-3">Reservation</div>
+                        <h2 class="hero-title">Book Your Table</h2>
+                        <div class="divider-s1"></div>
+                        <p class="col-lg-10 offset-lg-1 wow fadeIn" data-wow-delay=".6s">
+                            Reserve your table in advance and enjoy freshly prepared dishes, handcrafted drinks, and a warm, welcoming atmosphere.
+                        </p>
+                        <a href="reservation.html" class="btn-main fx-slide wow fadeIn" data-wow-delay=".6s"><span>Book a Table</span></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="row g-4 justify-content-center">
+                    <div class="col-lg-7">
+                        <div class="text-center">
+                            <div class="subtitle wow scaleIn">Discover</div>
+                            <h2 class="hero-title">Latest Blog</h2>
+                            <div class="divider-s1 mb-5 wow fadeIn fadeIn" data-wow-delay=".4s"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-5 wow fadeIn" data-wow-delay=".6s">
+                    <div class="col-lg-6">
+                        <div class="d-block hover relative overflow-hidden">
+                            <div class="row g-4 align-items-center">
+                                <div class="col-md-6">
+                                    <div class="relative overflow-hidden">
+                                        <img src="images/blog/1.webp" class="w-100 hover-scale-1-1" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <small class="d-block mb-2">May 10, 2026</small>
+                                    <a href="blog-single.html"><h3>How to Brew the Perfect Cup of Coffee at Home</h3></a>
+                                    <a href="blog-single.html" class="btn-arrow text-dark">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="d-block hover relative overflow-hidden">
+                            <div class="row g-4 align-items-center">
+                                <div class="col-md-6">
+                                    <div class="relative overflow-hidden">
+                                        <img src="images/blog/2.webp" class="w-100 hover-scale-1-1" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <small class="d-block mb-2">Apr 22, 2026</small>
+                                    <a href="blog-single.html"><h3>5 Signature Coffee Drinks You Should Try</h3></a>
+                                    <a href="blog-single.html" class="btn-arrow text-dark">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row g-4 align-items-center text-center">
+                <div class="col-lg-12">
+                    <img src="images/logo-white.webp" class="logo-footer" alt=""><br>
+                </div>
+                <div class="col-lg-12">
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a href="index.html">Home</a></li>
+                        <li class="list-inline-item"><a href="menu.html">Menu</a></li>
+                        <li class="list-inline-item"><a href="about.html">About</a></li>
+                        <li class="list-inline-item"><a href="gallery.html">Gallery</a></li>
+                        <li class="list-inline-item"><a href="blog.html">Blog</a></li>
+                        <li class="list-inline-item"><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-12">
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    </div>                                
+                </div>                    
+            </div>
+        </div>
+        <div class="subfooter">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        Copyright 2026 - Caffino by Designesia
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Javascript Files
+    ================================================== -->
+    <script src="js/vendors.js"></script>
+    <script src="js/designesia.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/custom-swiper-1.js"></script>
+    <!-- gsap -->
+    <script src="js/gsap.min.js"></script>
+    <script src="js/ScrollTrigger.min.js"></script>
+    <script src="js/SplitText.min.js"></script>
+    <script src="js/custom-gsap.js"></script>
+</body>
+
+</html>
