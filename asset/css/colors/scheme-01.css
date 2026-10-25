@@ -1,0 +1,16 @@
+:root{
+  --primary-color: #FC7753;
+  --primary-color-rgb: 252,119,83;
+
+  --secondary-color: #DBD56E;
+  --secondary-color-rgb: 219,213,110;
+
+  --bg-default: #F2EFEA;
+  --bg-light: #E9E5DE;
+
+  --bg-dark-1: #24252C;
+  --bg-dark-2: #2B2C33;
+  --bg-dark-3: #1D1E24;
+
+  --bg-dark-1-rgb: 36,37,44;
+}
