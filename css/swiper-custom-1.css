@@ -1,0 +1,42 @@
+.anim-order-1, .anim-order-2{
+    opacity: 0;
+}
+
+
+.swiper-slide.swiper-slide-active .swiper-inner,
+.swiper-slide.swiper-slide-duplicate-active .swiper-inner{
+  animation-name: scaleIn  animation-duration: 1.5s;
+  animation-delay: 0s;
+}
+
+.swiper-slide.swiper-slide-active .anim-order-1,
+.swiper-slide.swiper-slide-duplicate-active .anim-order-1{
+    animation-name: scaleIn;
+    animation-duration: .75s;
+    animation-delay: 1s;
+}
+.swiper-slide.swiper-slide-active .anim-order-2,
+.swiper-slide.swiper-slide-duplicate-active .anim-order-2{
+    animation-name: scaleIn;
+    animation-duration: .75s;
+    animation-delay: 1.3s;
+}
+.swiper-slide.swiper-slide-active .anim-order-3,
+.swiper-slide.swiper-slide-duplicate-active .anim-order-3{
+    animation-name: scaleIn;
+    animation-duration: .75s;
+    animation-delay: 1.6s;
+}
+.swiper-slide.swiper-slide-active .anim-order-4,
+.swiper-slide.swiper-slide-duplicate-active .anim-order-4{
+    animation-name: scaleIn;
+    animation-duration: .75s;
+    animation-delay: 1.9s;
+}
+
+.swiper-slide.swiper-slide-active .anim-order-5,
+.swiper-slide.swiper-slide-duplicate-active .anim-order-5{
+    animation-name: scaleIn;
+    animation-duration: .75s;
+    animation-delay: 2.2s;
+}
